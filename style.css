@@ -64,7 +64,6 @@ section.allElems{
     width: 100%;
     background-color: #4E1F00;
     padding: 20px;
-    font-size: 40px;
     display: none;
     position: absolute;
 }
@@ -73,11 +72,39 @@ section.allElems{
     right: 5%;
     background-color: red;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 15px 22px;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
+    cursor: pointer;
 }
 .back:active{
     scale: 0.97;
+}
+
+.todo-list-fullpage{
+    display: block;
+}
+.todo-list-fullpage h2{
+    font-size: 70px;
+}
+.todo-list-fullpage .todo-container{
+    height: 80%;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-list-fullpage .todo-container .addTask{
+    width: 34%;
+    background-color: var(--tri2);
+    height: 100%;
+    border-radius: 20px;
+}
+.todo-list-fullpage .todo-container .allTask{
+     width: 65%;
+    background-color: var(--tri2);
+    height: 100%;
+    border-radius: 20px;
 }
