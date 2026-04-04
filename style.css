@@ -108,3 +108,43 @@ section.allElems{
     height: 100%;
     border-radius: 20px;
 }
+.todo-list-fullpage .todo-container .addTask form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.todo-container .addTask form input{
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 27px;
+    background-color: #4E1F00;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.todo-container .addTask form textarea{
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 27px;
+    background-color: #4E1F00;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.todo-container .addTask form button{
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 27px;
+    background-color: #004e09;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+}
+.todo-container .addTask form button:active{
+    scale: 0.96;
+}
